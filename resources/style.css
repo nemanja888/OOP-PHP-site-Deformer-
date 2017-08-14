@@ -1,0 +1,789 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+
+#wrapper{
+	width: 1160px;
+	margin: auto;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+
+h2{
+	margin: 0px;
+}
+
+#header {
+	background: #ff3333;
+	padding: 10px;
+}
+
+#header h1{
+	font-family: 'Bevan', cursive;
+	font-size: 4em;
+}
+#header h1 a{
+	color: #ffffff;
+}
+
+#header h1, #header p{
+	margin: 0;
+}
+
+#logo{
+	float: left;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+#socials{
+	position: relative;
+	top: 50px;
+	float: right;
+	font-size: 20px;
+	width: 110px;
+	padding: 10px;
+}
+#log_buttons{
+	width: 20%;
+	background-color: #fff;
+	float: right;
+}
+#log_buttons a{
+	float: right;
+	text-align: center;
+	padding: 8px;
+	box-sizing: border-box;
+	width: 50%;
+	border-left: 4px solid #ff3333;
+}
+
+#log_buttons a:hover{
+	opacity: 0.7;
+	color: #ff3333;
+}
+
+#log_out_button{
+	width: 20%;
+	background-color: #fff;
+	float: right;
+}
+#log_out_button a{
+	float: right;
+	text-align: center;
+	padding: 8px;
+	box-sizing: border-box;
+	width: 100%;
+	border-left: 4px solid #ff3333;
+}
+#log_out_button a:hover{
+	opacity: 0.7;
+	color: #ff3333;
+}
+
+
+#socials a{
+	margin-left: 6px;
+	color: #fff;
+}
+
+#socials a:hover{
+	color: #b30000;
+	
+}
+
+#cover{
+	width: 100%;
+	height: 200px;
+	background-image: url(img/cover.jpg);
+	margin-top: 20px;
+	clear: both;
+	
+}
+
+
+#nav{
+	background: #fff;
+}
+
+#nav ul{
+	padding: 0px;
+	margin-bottom: 20px;
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+}
+
+#nav ul li{
+	float: left;
+	
+}
+
+#nav ul li a{
+	display: block;
+	padding: 15px 12px;
+	text-align: center;
+	color: #ff3333;
+}
+
+#nav ul li a:hover{
+	background: #ff3333;
+	color: #fff;
+}
+
+#main{
+	width: 760px;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.section{
+	margin-bottom: 60px;
+	background: #fafafa;
+	padding: 20px;
+	overflow: hidden;
+	text-align: justify;
+	height: 350px;
+ }
+
+.section img{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(176,178,139); 
+	padding: 3px;
+}
+
+.section a{
+	color: #000;
+}
+
+.section a:hover, .section1 a:hover{
+	color: #ff3333;
+}
+
+.section1{
+	margin-bottom: 20px;
+	background: #fafafa;
+	padding: 20px;
+	overflow: visible;
+	text-align: justify;
+}
+.section1 img{
+	width: 600px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(176,178,139);
+	padding: 3px;
+}
+.section1 a{
+	color: #000;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+#aside{
+	width:340px;
+	float: left;
+	margin-left: 20px;
+}
+
+#aside h2, #aside ul{
+	margin: 0px;
+	
+}
+
+.article input[type="text"]{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #CFCCCC;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+ .article input[type="submit"]{
+	width: 90px;
+	height: 50px;
+	font-weight: bold;
+	}
+
+ .article input[type="submit"]:hover{
+	background-color:  #ff3333;
+	border: 1px solid  #ff3833;
+	font-weight: bold;
+	color:#fff;
+}
+
+.article{
+	background: #fafafa;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.article ul{
+	list-style-type: none;
+}
+
+.article ul li a{
+	color: #000;
+}
+
+.article ul li a:hover{
+	color: #ff3333;
+}
+
+.comment{
+	clear: both;
+	background: rgba(191, 165, 165, 0.31);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px 34px 20px 35px;
+	-moz-border-radius: 20px 34px 20px 35px;
+	-webkit-border-radius: 20px 34px 20px 35px;
+	border: 0px solid #000000;
+	padding: 10px;
+}
+.comment{
+	overflow: hidden;
+
+}
+
+.comment img{
+	float: left;
+	width: 80px;
+}
+.comment img:last-child{
+	float: right;
+	width: 20px;
+	cursor: pointer;
+}
+.comment a img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+
+}
+
+.comment h3{
+	width: 80%;
+	float: left;
+	margin: 0 0 20px 20px;
+}
+
+.comment span{
+	display: block;
+	width: 20%;
+	position: relative;
+	right: -80%;
+	color: hsla(241, 99%, 44%, 0.36);
+	font-size: 0.8em;
+}
+.comment p{
+	float: left;
+}
+
+#footer{
+	background:#ff3333;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+
+#ask{
+	margin: 20px;
+	padding: 20px;
+	background: #fafafa;
+}
+#ask label{
+	font-size: 1.5em;
+}
+
+#ask table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+#ask table tr td{
+	border-bottom: 1px solid hsla(0,0%,55%,1.00);
+	 
+}
+#ask table tr:last-child td{
+	border: none;
+}
+
+#ask table tr td:first-child{
+	width:25%;
+	margin: auto;
+}
+
+
+#ask input, #ask select{
+	position: relative;
+	top:10px;
+	width: 40%;
+	height: 60px;
+	margin-bottom: 20px;
+	border: 1px solid hsla(0,0%,55%,1.00);
+	border-radius: 3px;
+	box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
+}
+#ask textarea{
+	width: 50%;
+	position: relative;
+	top:10px;
+	height: 60px;
+	margin-bottom: 20px;
+	border: 1px solid hsla(0,0%,55%,1.00);
+	border-radius: 3px;
+	box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
+}
+
+#ask input:hover, #ask select:hover, #ask textarea:hover{
+	background: hsla(0,0%,69%,0.70);
+	border: 1px solid hsla(0,0%,26%,1.00);
+}
+#ask input:focus, #ask select:focus {
+	width: 50%;
+}
+
+#ask textarea:focus{
+	width: 70%;
+}
+
+#ask table tr td input[type="submit"]:hover{
+	background-color: rgb(176,178,139);
+	border: 1px solid rgba(150,151,124,1.00);
+	font-weight: bold;
+	color:#fff;
+}
+#ask table tr td input[type="submit"]{
+	float: right;
+	width: 90px;
+	height: 50px;
+	font-weight: bold;
+}
+
+#ask textarea{
+	height: 200px;
+	padding: 10px;
+}
+
+#ask input:required, #ask textarea:required {
+    background: #fff url("img/alert.png") no-repeat 98% center;
+}
+
+#ask input:required:valid, #ask textarea:required:valid {
+    background: #fff url("img/checked.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+#ask input:focus:invalid, #ask textarea:focus:invalid {
+    background: #fff url("img/forbidden.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+
+}
+
+#comment_section{
+	border-top: 4px solid #ff3333;
+	clear:both;
+	margin-bottom: 40px;
+}
+
+#comment_section h2{
+	position: relative;
+	top: -17px;
+	background: #f6f6f6;
+	width: 25%;
+	text-align: right;
+	padding-right: 10px;
+	color: #C6C6C6;
+
+}
+#comment_section table {
+	width: 90%;
+	margin: 20px 0px 0px 40px;
+}
+
+
+#comment_section textarea{
+	width: 100%;
+	height: 120px;
+	border: 2px solid #e2e2e2e2;
+	padding: 15px;
+	box-sizing: border-box;
+}
+#comment_section input{
+	width: 90%;
+	border: 2px solid #e2e2e2e2;
+	height: 30px;
+	margin-bottom: 15px;
+}
+#comment_section input[type='url']{
+	float: right;
+}
+#comment_section input[type='submit']{
+	float: right;
+	background: #4b4b4b;
+	border: none;
+	font-weight: bold;
+}
+#comment_section input[type='submit']:hover{
+	background: #ff3333;
+	color: #fff;
+}
+#comment_section input[type='text']:hover, #comment_section input[type='email']:hover, #comment_section input[type='url']:hover, #comment_section textarea:hover{
+	border: 2px solid rgba(31, 9, 107, 0.32);
+}
+#comment_section form {
+	border: 3px solid #f1f1f1;
+}
+
+/* LOG IN FORM----------------------------------------------------- */
+
+#log_in, .sing_up{
+	width: 50%;
+	margin: auto;
+
+}
+.sing_up{
+	background-color:#f1f1f1
+}
+#log_in input[type=text], #log_in input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#log_in button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+#log_in button:hover {
+	opacity: 0.8;
+}
+
+#log_in .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+#log_in .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+#log_in img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+#log_in .container {
+	padding: 16px;
+	background-color:#f1f1f1
+}
+
+#log_in span.psw {
+	float: right;
+	padding-top: 16px;
+}
+#log_in span a:hover{
+	color: #f44336;
+}
+
+.sing_up input[type=text], .sing_up input[type=email], .sing_up input[type=password]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.sing_up input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+.sing_up span a:hover{
+	color: #f44336;
+	cursor: pointer;
+}
+#btn_cancel{
+	background-color: #f44336;
+}
+#btn_sing_up{
+
+}
+#btn_cancel, #btn_sing_up{
+	width: 50%;
+	float:left;
+}
+#admin_button{
+
+}
+
+/*RESPONSIVE-----------------------------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1260px){
+	#wrapper{
+		width: 960px;
+	}
+	#main{
+		width: 660px;
+	} 
+	#aside{
+		width: 240px;
+	}
+	#cover{
+		background-size: contain;
+		height: 160px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	#wrapper{
+		width: 760px;
+	}
+	#main{
+		width: 460px;
+	} 
+	#aside{
+		width: 240px;
+	}
+	#cover{
+		background-size: contain;
+		height: 120px;
+	}
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+}
+
+	#comment_section h2{
+		font-size: 1.3em;
+	}
+	.comment span{
+		right: -80%;
+		text-align: right;
+	}
+}
+@media screen  and (min-width: 481px) and (max-width: 767px){
+	img{
+		width: 100%;
+	}
+	#wrapper{
+		width: 80%;
+	}
+	#main, #aside{
+		width: auto;
+		float: none;
+		margin-right: 20px;
+	}
+	#cover{
+		background-size: contain;
+		height: 65px;
+		
+	}
+	#socials{
+		float: none;
+		margin: auto;
+		
+	}
+
+	#logo{
+		float:none;
+		margin: auto;
+		text-align: center;
+	}
+	#logo h1{
+		font-size: 2em;
+	}
+	#log_buttons{
+		width: 100%;
+	}
+	#log_out_button{
+		width: 100%;
+	}
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+}
+	#comment_section h2{
+		font-size: 0.8em;
+		top: -13px;
+		width: 30%;
+	}
+	#comment_section textarea{
+		width: 90%;
+		height: 80px;
+	}
+	#comment_section input {
+		float: left;
+		width: 95%;
+	}
+	#comment_section table td{
+		width: 30px;
+	}
+	.comment{
+		font-size: 0.9em;
+	}
+	.comment span{
+		right: -80%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	h1,h2,h3,h4,h5,h6{
+		text-align: center;
+	}
+	#nav ul li{
+		float:none;
+	}
+	img{
+		width: 100%;
+	}
+	#logo h1{
+		font-size: 1.5em;
+		margin: 0px;
+	}
+	#log_buttons{
+		width: 100%;
+	}
+	#log_out_button{
+		width: 100%;
+	}
+	#wrapper{
+		width: 80%;
+	}
+	#main, #aside{
+		width: auto;
+		float: none;
+		margin-right: 20px;
+	}
+	#cover{
+		display: none;
+	}
+	#socials{
+		float: none;
+		margin: auto;
+		
+	}
+	#logo{
+		float:none;
+		margin: auto;
+		text-align: center;
+		
+	}
+	
+	#ask input, #ask select, #ask textarea{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:hover, #ask select:hover, #ask textarea:hover{
+		width: 100%;
+		height: 40px;
+	}
+	#ask input:focus, #ask select:focus,  #ask textarea:focus{
+		width: 100%;
+		height: 40px;
+	}
+	#ask label{
+	font-size: 1em;
+}
+	#comment_section h2{
+		font-size: 0.8em;
+		top: -13px;
+		width: 30%;
+		padding-left: 20px;
+	}
+	#comment_section textarea{
+		width: 80%;
+		height: 80px;
+	}
+	.comment{
+		font-size: 0.6em;
+	}
+	#btn_cancel, #btn_sing_up{
+		float:none;
+		width: 100%;
+	}
+	}
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+	#btn_cancel, #btn_sing_up{
+		float:none;
+		width: 100%;
+	}
+	#logo h1{
+		font-size: 1em;
+		margin: 0px;
+	}
+}
+
+
